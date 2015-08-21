@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Component-Modal</title>
+    <meta name="author" content="allanyu">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,maximum-scale=1">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="x5-orientation" content="landscape">
+    <meta name="full-screen" content="yes">
+    <meta name="screen-orientation" content="landscape">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+
+    <link rel="shortcut icon" href="#"/>
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/comp.less"/>
+</head>
+<body class="container">
+<div class="wrap">
+    <div class="content">
+        rotate()函数能够旋转元素，它主要是在二维空间内进行操作，通过一个角度参数值，来设定旋转的幅度。
+        如果对元素本身或者元素设置了perspective值，那么rotate3d()函数可以实现一个3维空间内的旋转。
+        关联属性：transform-origin。
+    </div>
+</div>
+<div class="modal-mask"></div>
+<div class="modal">
+    <div class="modal-header">
+        Modal Title
+    </div>
+    <div class="modal-body">
+        <div class="content">
+            你也可以像在CSS3中一样定义这个动画的时长（duration）、重复次数（iterations）、延迟（delay）等，在此我们不多加阐述。如果你感兴趣具体的用法，可以看看这篇文章中的例子
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="modal-btn">登录</div>
+        <div class="modal-btn">注册</div>
+    </div>
+</div>
+</body>
+</html>
